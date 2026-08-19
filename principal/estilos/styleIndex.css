@@ -1,0 +1,21 @@
+body {
+    background-color: #1a1a1a;
+}
+
+#Bienvenida {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+#Bienvenida h1 {
+    color: #d4a537;
+}
+
+#Bienvenida button{
+    text-align: center; 
+    color : #1a1a1a;
+    font-size: 16px;
+    background-color: #d4a537;
+    border-radius: 5px;
+}

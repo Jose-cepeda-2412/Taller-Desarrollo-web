@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de personajes</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <h1 id = "titulo-galeria">Galería de Personajes</h1>
+    
+    <a href="../principal/index.html">Inicio</a>
+    
+    <section id = "galeria">
+
+    <article id ="kael" class ="ficha" data-tipo ="heroe">
+        <h2 class="nombre">Kael</h2>
+        <img src="../imagenes/kael.jpeg" alt="Kael, guerrero de Aetheria" width="250" height="200">
+        <p class="clase">Guerrero</p>
+        <p class="descripcion">Kael es un guerrero valiente y fuerte, especializado en combate cuerpo a cuerpo. Su habilidad especial le permite realizar ataques fuertes.</p>
+        <h3>Estadísticas</h3>
+        <ul class="stats">
+            <li>Fuerza: 85</li>
+            <li>Defensa: 70</li>
+            <li>Velocidad: 50</li>
+        </ul>
+        <p class="vida">Vida: 100</p>
+    </article>
+    
+    <article id ="Ragna" class ="ficha" data-tipo ="villano">
+        <h2 class="nombre">Ragna</h2>
+        <img src="../imagenes/ragna.jpeg" alt="Imagen de Ragna" width="250" height="200">
+        <p class="clase">Mago</p>
+        <p class="descripcion">Ragna es un mago poderoso, experto en hechizos y con un gran conocimiento de la magia. Su habilidad especial le permite lanzar hechizos.</p>
+        <h3>Estadísticas</h3>
+        <ul class="stats">
+            <li>Fuerza: 40</li>
+            <li>Defensa: 50</li>
+            <li>Velocidad: 70</li>
+        </ul>
+        <p class="vida">Vida: 80</p>
+    </article>
+
+    <article id="lyra" class="ficha" data-tipo="heroe">
+        <h2 class="nombre">Lyra</h2>
+        <img src="../imagenes/lyra.jpeg" alt="Lyra, arquera de Aetheria" width="250" height="200">
+        <p class="clase">Arquera</p>
+        <p class="descripcion">
+            Lyra es una arquera agil y precisa, experta en atacar a sus enemigos desde largas distancias.
+            Su habilidad especial le permite disparar varias flechas rápidamente.
+        </p>
+
+        <h3>Estadísticas</h3>
+        <ul class="stats">
+            <li>Fuerza: 60</li>
+            <li>Defensa: 55</li>
+            <li>Velocidad: 90</li>
+        </ul>
+
+        <p class="vida">Vida: 85</p>
+    </article>
+
+    <article id="draven" class="ficha" data-tipo="villano">
+        <h2 class="nombre">Draven</h2>
+        <img src="../imagenes/draven.jpeg" alt="Draven, guerrero de Aetheria" width="250" height="200">
+        <p class="clase">Guerrero</p>
+        <p class="descripcion">
+            Draven utiliza la oscuridad para acercarse a sus enemigos.
+            Su habilidad especial le permite realizar ataques rápidos y sorpresivos.
+        </p>
+
+        <h3>Estadísticas</h3>
+        <ul class="stats">
+            <li>Fuerza: 70</li>
+            <li>Defensa: 45</li>
+            <li>Velocidad: 95</li>
+        </ul>
+
+        <p class="vida">Vida: 75</p>
+    </article>
+
+    </section>
+    
+    <div class="redes-pagina">
+        <!-- 
+        El combinador descendiente busca todos los p dentro de .redes-pagina,
+        sin importar cuántos niveles haya en medio.
+        -->
+        <!-- 
+        El combinador hijo directo > solo selecciona los p que son
+        hijos inmediatos de .redes-pagina.
+        -->
+
+        <!--
+        El combinador + selecciona únicamente el p que está
+        inmediatamente después del h3.
+        -->
+
+        <!--
+        El combinador ~ selecciona todos los p que aparecen después
+        del h3 y están en el mismo nivel.
+        -->
+
+        <p>Síguenos en nuestras redes</p> <!-- sin la linea amarilla -->
+        <h3>Conecta con nosotros</h3>
+        <p>Síguenos en nuestras redes</p> <!-- con la linea amarilla -->
+        <a href="#" class="red-facebook">📘 Facebook</a>
+        <a href="#" class="red-instagram">📷 Instagram</a>
+        <a href="#" class="red-x">𝕏 X</a>
+    </div>
+
+    <script 
+        src="scripts/script.js">
+    </script>
+
+</body>
+</html>

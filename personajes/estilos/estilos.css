@@ -1,0 +1,102 @@
+body{
+    background-color: #0E0E0E;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#galeria{
+    display: flex;
+    
+    gap: 20px;
+}
+
+.ficha{
+    background-color: #1C1C1C;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+}
+.nombre{
+    color: #E6C068;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.clase{
+    color: #C9A66B;
+    font-style: italic;
+}
+.stats{
+    display: flex;/*para que queden uno al lado del otro*/
+    list-style: none;
+    padding: 0;
+    gap: 16px;/*para que no queden pegados*/
+    justify-content: flex-start;/*deja los elementos centrados*/
+    align-items: center;
+}
+
+.vida{
+    color:#79D970;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+h1{
+    text-align: center;
+    color: #d4a537;
+}
+
+a:hover{
+    color:#d4a537;
+    text-decoration: none
+}
+
+[data-tipo="heroe"]{
+    border: 2px solid #2b585d;
+}
+[data-tipo="villano"]{
+    border: 2px solid #8b1a1a;
+}
+
+#titulo-galeria{
+    letter-spacing: 2px;
+}
+
+.redes-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.redes-pagina p{
+    font-style: italic;
+}
+.redes-pagina >p{
+    background-color: #2a2a2a;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+p{
+    font-style: italic;
+}
+
+h3 + p{
+    margin-top: 16px;
+    border-top: 2px solid #d4a537;
+    padding-top: 12px;
+}
+
+h3 ~ p{
+    color: #d4a537;
+    font-weight: bold;
+}
+
+.resaltado {
+    border: 2px solid #d4a537;
+}
+
+.borde-redondeado{
+    border-radius: 12px;
+}
